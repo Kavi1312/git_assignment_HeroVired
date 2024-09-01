@@ -18,12 +18,6 @@ class Calculator:
         if b == 0:
             raise ValueError("Cannot divide by zero.")
         return a / b
-    
-<<<<<<< HEAD
-=======
-    # TODO: Implement the following function to calculate the square root of a number.
-
->>>>>>> feature/sqrt
     def square_root(self, x):   
 
         return math.sqrt(x)
